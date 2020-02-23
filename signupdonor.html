@@ -16,23 +16,12 @@
     </div>
     <p>Donor Sign-In</p>
 	<form id="inputs">
+        <!--this will be changed to the correct form for wtforms-->
         <label for="fname">First Name:</label> <br>
         <input type="text" id="fname" name="fname"> <br>
         <label for="lname">Last Name:</label> <br>
         <input type="text" id="lname" name="lname"> <br>
         <input type="submit" id="submit" value="Submit">
     </form>
-    <p id="info"></p>
-    <script>
-        var firstname = document.getElementById("fname");
-        var lastname = document.getElementById("lname");
-        var submits = document.getElementById("submit");
-        submit.onclick = function() {
-            /*add code to move variables to database here*/
-            document.getElementById("info").innerHTML = firstname.value;
-            /*document.getElementById("info").innerHTML = lastname.value;*/
-        }
-        
-    </script>
 </body>
 </html>
